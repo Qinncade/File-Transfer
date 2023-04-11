@@ -65,7 +65,7 @@ Copy the Base64 string and paste the string to any Text-Editor.
 ```bash
 vim string.b64
 ```
-Finaly deconvert it back to the origin file.
+Finally deconvert it back to the origin file.
 ```bash
 base64 -d string.b64 > file.ext
 ```
