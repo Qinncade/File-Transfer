@@ -61,11 +61,11 @@ On Windows
 ```bash
 [convert]::ToBase64String((Get-Content -path "file.ext" -Encoding byte))
 ```
-Copy the Base64 string.
+Copy the Base64 string and paste the string to any Text-Editor.
 ```bash
 vim string.b64
 ```
-Paste the string to any Text-Editor.
+Finaly deconvert it back to the origin file.
 ```bash
 base64 -d string.b64 > file.ext
 ```
