@@ -6,7 +6,7 @@ In some CTF's it is useful to have a Plan B if you need to transfer a file from 
 ## SCP
 The bestcase scenario is scp over a SSH connection.
 ```bash
-scp user@sourceIP:/PATH/file.ext user@destinationIP:/Path/file.ext
+scp user@sourceIP:/PATH/file.ext user@destinationIP:/PATH/file.ext
 ```
 
 ## SMBserver
