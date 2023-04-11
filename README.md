@@ -10,7 +10,7 @@ scp user@sourceIP:/PATH/file.ext user@destinationIP:/PATH/file.ext
 ```
 
 ## SMBserver
-Start a SMBserver in you current directory [.] to copy & paste files back and forth
+Start a SMBserver in you current directory [.] to copy & paste files back and forth.
 ```bash
 sudo impacket-smbserver -smb2support share[NAME] .[/PATH] 
 ```
@@ -22,10 +22,10 @@ Copy to a Windows Target
 ```bash
 copy \\SMBserverIP\share\file.ext .\file.ext
 ```
-Make sure to stop the SMBserver after transfer because everybody in that network has access to your SMBserver
+Make sure to stop the SMBserver after transfer because everybody in that network has access to your SMBserver.
 
 ## Python Server
-It is also possible to start a Python3 http.server and transfer some files with wget or IWR.
+It is also possible to start a Python3 http.server and transfer some files with wget or IWR. <br>
 At the Source
 ```bash
 python3 -m http.server 8080
