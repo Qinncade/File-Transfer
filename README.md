@@ -7,7 +7,7 @@ In some CTF's it is useful to have a Plan B if you need to transfer a file from 
 The bestcase scenario is scp over a SSH connection.
 ```bash
 scp user@sourceIP:/PATH/file.ext user@destinationIP:/Path/file.ext
-``
+```
 
 ## SMBserver
 Start a SMBserver in you current directory [.] to copy & paste files back and forth
