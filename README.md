@@ -1,9 +1,9 @@
 # File-Transfer
-##Collection of File Transfer possibilities
+## Collection of File Transfer possibilities
 
 Sometimes it is useful to have a Plan B if you need to transfer a file from or to a remote machine.
 
-##Base64
+## Base64
 If all else fails, there is always plan y.
 Convert a File or Program to a Base64 string Copy & Paste it to the Target and deconvert it.
 Nix to Nix
