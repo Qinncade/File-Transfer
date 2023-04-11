@@ -33,7 +33,7 @@ python3 -m http.server 8080
 At the destination Linux
 ```bash
 wget http://sourceIP:8080/file.ext
-curl http://sourceIP:8080/file.ext -o /PATH/fiile.ext
+curl http://sourceIP:8080/file.ext -o /PATH/file.ext
 ```
 At the destination Windows
 ```bash
