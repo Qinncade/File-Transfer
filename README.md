@@ -4,8 +4,8 @@
 Sometimes it is useful to have a Plan B if you need to transfer a file from or to a remote machine.
 
 ## Base64
-If all else fails, there is always plan y.
-Convert a File or Program to a Base64 string Copy & Paste it to the Target and deconvert it.
+If all else fails, there is always plan y. <br>
+Convert a File or Program to a Base64 string Copy & Paste it to the Target and deconvert it. <br>
 Nix to Nix
 ```bash
 base64 file.ext > fileb64.txt
