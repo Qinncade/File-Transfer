@@ -12,6 +12,10 @@ Nix to Nix
 base64 file.ext > fileb64.txt
 cat fileb64.txt
 ```
+Win to Nix
+```bash
+[convert]::ToBase64String((Get-Content -path "file.ext" -Encoding byte))
+```
 Copy the Base64 string.
 ```bash
 vim string.b64
