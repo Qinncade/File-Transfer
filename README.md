@@ -65,7 +65,15 @@ Copy the Base64 string and paste the string to any Text-Editor.
 ```bash
 vim string.b64
 ```
-Finally deconvert it back to the origin file.
+
+## netcat
+Simple sending <br>
+<br>
+On receiving Machine
 ```bash
-base64 -d string.b64 > file.ext
+nc -lvnp 8002 > file.txt
+```
+On the sending Machine
+```bash
+nc -w 3 <RECEIVER IP> 8002 < file.txt
 ```
