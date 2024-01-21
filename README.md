@@ -49,7 +49,7 @@ http://source.URL/file.ext
 ```
 
 ## Base64
-If all else fails, there is always plan y. <br>
+If all else fails, there is always plan B. <br>
 Convert a file or program to a Base64 string copy & paste it to the Target and deconvert it. <br>
 <br>
 On Linux
@@ -61,9 +61,15 @@ On Windows
 ```bash
 [convert]::ToBase64String((Get-Content -path "file.ext" -Encoding byte))
 ```
-Copy the Base64 string and paste the string to any Text-Editor.
+Copy the Base64 string, create a file in any Text-Editor and decode it on the victims machine.
+On Linux
 ```bash
 vim string.b64
+base64 -d sting.b64 > file.ext
+```
+On Windows
+```bash
+[IO.File]::WriteAllBytes("C:\Windows\System32\Tasks\file.ext", [convert]::FromBase64String(("BASE64-STRING"))
 ```
 
 ## netcat
