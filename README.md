@@ -61,7 +61,8 @@ On Windows
 ```bash
 [convert]::ToBase64String((Get-Content -path "file.ext" -Encoding byte))
 ```
-Copy the Base64 string, create a file in any Text-Editor and decode it on the victims machine.
+Copy the Base64 string, create a file in any Text-Editor and decode it on the victims machine.<br>
+<br>
 On Linux
 ```bash
 vim string.b64
